@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
 </head>
+
 <body>
   <h1>Hello World!</h1>
 
@@ -14,11 +16,11 @@
     // var name = 'John Doe'
     // var age = 47
     // var isDone = false
-    
+
     // console.log(name, age, isDone)
 
     // var greeting = 'Hello World!'
-    
+
     // console.log(greeting)
     // greeting = 'Goodbye World!'
 
@@ -70,7 +72,7 @@
     // let a = 50
     // let b = (a * 2) + 20
     // a = 40 + b
-    
+
     // console.log(a + b === 280)
 
     // let x = 'Hello'
@@ -116,9 +118,9 @@
     //   console.log('Bad!')
     // }
 
-    let a = parseInt(prompt('Pick a number'))
-    let b = parseInt(prompt('Pick another number'))
-    let op = prompt('Pick an operation (add, subtract, multiply, divide)')
+    // let a = parseInt(prompt('Pick a number'))
+    // let b = parseInt(prompt('Pick another number'))
+    // let op = prompt('Pick an operation (add, subtract, multiply, divide)')
 
     // if (op === 'add') {
     //   alert(a + b)
@@ -146,7 +148,18 @@
     //   default:
     //     break
     // }
+
+    // console.log(Math.floor(Math.random() * 20))
+
+    let user = parseInt(prompt('Pick a number between 1 and 10'))
+    let computer = Math.ceil(Math.random() * 10)
     
+    if (computer === user) {
+      console.log('You guessed it!')
+    } else {
+      console.log('You are wrong!')
+    }
   </script>
 </body>
+
 </html>
